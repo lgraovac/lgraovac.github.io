@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meal Prep Made Easy provides simple breakfast, lunch, and dinner meal prep ideas to help save time and make planning meals easier.">
     <title>Meal Prep Made Easy</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -46,10 +47,80 @@
     <img src="images/dinner.jpg" alt="Dinner meal prep">
 </div>
         </section>
+
+<section class="meal-guide">
+    <h2>Meal Prep Guide</h2>
+    <p>
+        Use this quick guide to compare the approximate prep time and
+        storage time for each type of meal.
+    </p>
+    <table>
+        <tr>
+            <th>Meal</th>
+            <th>Prep Time</th>
+            <th>Storage</th>
+        </tr>
+        <tr>
+            <td>Breakfast</td>
+            <td>10–15 minutes</td>
+            <td>3–4 days</td>
+        </tr>
+        <tr>
+            <td>Lunch</td>
+            <td>20–30 minutes</td>
+            <td>3–4 days</td>
+        </tr>
+        <tr>
+            <td>Dinner</td>
+            <td>30–40 minutes</td>
+            <td>3–4 days</td>
+        </tr>
+    </table>
+</section>  
+ <section class="meal-form">
+    <h2>Share Your Meal Prep Idea</h2>
+
+    <p>
+        Have a favorite meal prep recipe? Share your idea below!
+    </p>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="meal">Meal Type:</label>
+        <select id="meal" name="meal">
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+        </select>
+
+        <label for="recipe">Meal Prep Idea:</label>
+        <textarea id="recipe" name="recipe" rows="5"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</section>
+<section class="meal-video">
+    <h2>Meal Prep in Action</h2>
+    <p>Meal prep makes it easy to have meals ready when you need them.</p>
+
+    <video controls>
+        <source src="videos/meal-prep-video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+</section>
     </main>
 
     <footer>
-        <p>Meal Prep Made Easy</p>
-    </footer>
+    <p>Meal Prep Made Easy</p>
+    <p>
+        <a href="mailto:mealprepmadeeasy@example.com">Contact Us</a> |
+        <a href="https://www.myplate.gov/" target="_blank">Visit MyPlate</a>
+    </p>
+</footer>
 </body>
 </html>
